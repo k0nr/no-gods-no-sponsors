@@ -1,0 +1,77 @@
+<style>
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* portrait mode warning */
+#warning-message { display: none; 
+background-color: black;
+color:white;
+font-size:30px;
+}
+
+@media only screen and (orientation:portrait){
+.outer { display:none; }
+#warning-message { display:block; }
+
+ }
+
+@media only screen and (orientation:landscape){
+        #warning-message { display:none; }
+
+    }
+    
+    
+    
+@font-face {
+    font-family: 'PxPlus IBM CGA';
+    src: url('PxPlus_IBM_CGA.woff2') format('woff2'),
+        url('PxPlus_IBM_CGA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+    
+body {
+    cursor: url('images/cursor.cur'), default;
+    
+}
+    
+    
+.outer {
+    
+}
+
+.title {
+    font-family: 'PxPlus IBM CGA', mono;
+}
+
+.flexy {
+    flex-wrap: wrap;
+    
+}
+
+/* youtube */
+
+.youtube-responsive-container {
+position:relative;
+padding-bottom:56.25%;
+padding-top:30px;
+height:0;
+overflow:hidden;
+}
+
+.youtube-responsive-container iframe, 
+.youtube-responsive-container object, 
+.youtube-responsive-container embed {
+position:absolute;
+width:100%;
+height:100%;
+}
+
+</style>
+
