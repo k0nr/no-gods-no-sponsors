@@ -36,10 +36,20 @@ font-size:30px;
 
 
     
-body {
-    cursor: url('images/cursor.cur'), default;
+html {
+    cursor: url('images/egg.cur'), default;
     
 }
+
+body {
+    cursor: url('images/egg.cur'), default;
+    height: 100%;
+    width: 100%;
+    background-color: #00FFFF;
+}
+    
+    
+    
     
     
 .outer {
@@ -50,10 +60,58 @@ body {
     font-family: 'PxPlus IBM CGA', mono;
 }
 
+.banner {
+        position: relative;
+        top: 1%;
+        width: 65%;
+        left: 17.5%;
+        padding-bottom: 1%;
+}
+
 .flexy {
-    flex-wrap: wrap;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: -8px;
+    width: 60%;
+    left: 15%;
+    top: 20%;
+    position: relative;
     
 }
+
+
+    .flexy >* {
+        flex: 1 0 25%;
+        margin: 8px;
+    }
+
+
+     .item {
+            height: calc(33% * 5/3);
+            cursor: url('images/brite-egg.cur'), default;
+            padding-left: 5%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+            border: 5px dotted #F8D8FF;
+    }
+
+
+    .butto {
+            background: rgba(241,177,255,0.5);
+            color: magenta;
+            font-size: 20px;
+
+        }
+        
+             .butto:hover {
+                background: rgba(241,177,255,0.5);
+                background: url('images/bwconfetti.gif');
+                    }
+                    
+        
+
 
 /* youtube */
 
