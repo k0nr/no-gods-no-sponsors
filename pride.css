@@ -192,6 +192,35 @@ body {
                     content: '8';
                 }
             
+                .nine:before {
+                    content: 'Nine';
+                }
+                
+                .ten:before {
+                    content: 'TEN';
+                }
+                
+                .eleven:before {
+                    content: '11';
+                }
+                
+                .twelve:before {
+                    content: '[fuck] 12';
+                }
+                
+                .thirteen:before {
+                    content: 'XIII';
+                }
+                
+                .fourteen:before {
+                    content: 'FOUR TEEN';
+                }
+                
+                .fifteen:before {
+                    content: '15';
+                }
+                
+                
           
             .nine:before {
                 content: 'nine';
