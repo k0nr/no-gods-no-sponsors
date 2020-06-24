@@ -35,6 +35,25 @@ font-size:30px;
 }
 
 
+
+/* youtube */
+
+.youtube-responsive-container {
+position:relative;
+padding-bottom:56.25%;
+padding-top:30px;
+height:0;
+overflow:hidden;
+}
+
+.youtube-responsive-container iframe, 
+.youtube-responsive-container object, 
+.youtube-responsive-container embed {
+position:absolute;
+width:100%;
+height:100%;
+}
+
     
 html {
     cursor: url('images/egg.cur'), default;
@@ -75,7 +94,7 @@ body {
     align-items: center;
     margin: -8px;
     width: 60%;
-    left: 15%;
+    left: 20%;
     top: 20%;
     position: relative;
     
@@ -103,6 +122,7 @@ body {
             color: black;
             font-size: 26px;
             font-style: bold;
+            text-align: center;
 
         }
         
@@ -124,21 +144,55 @@ body {
             z-index: 7;
             background: rgba(248, 200, 255, 1);
             color: black;
-            padding: 5%;
+            padding-top: 5%;
+            padding-bottom: 5%;
             
         }
         
             .number:hover {
              background: rgba(0,0,0,0);  
              color: rgba(0,0,0,0);
+             position: absolute;
+             font-size: 20px;
              
             }
+                .wrench:before {
+                    content: '⬣';
+                }
             
-            .nine {
-                position: absolute;
-                font-size: 20px;
-            }
+               .one:before {
+                content: 'ONE';
+                }
             
+                .two:before {
+                    content: '2';
+                }
+                
+                .three:before {
+                    content: 'three';
+                }
+                
+                .four:before {
+                    content: 'FOUR';
+                }
+                
+                .five:before {
+                    content: 'V';
+                }
+                
+                .six:before {
+                    content: 'siXXX';
+                }
+                
+                .seven:before {
+                    content: '7';
+                }
+                
+                .eight:before {
+                    content: '8';
+                }
+            
+          
             .nine:before {
                 content: 'nine';
             }
@@ -153,38 +207,11 @@ body {
                 content: 'seventeen';
             }
 
-            
-a:link {
-    text-decoration: none;
-    color: black;
-}
+          
+          
+          
 
-a:visited {
-    text-decoration: none;
-    color: gray;
-}
 
-a:hover {
-    text-decoration: underline;
-}
-
-/* youtube */
-
-.youtube-responsive-container {
-position:relative;
-padding-bottom:56.25%;
-padding-top:30px;
-height:0;
-overflow:hidden;
-}
-
-.youtube-responsive-container iframe, 
-.youtube-responsive-container object, 
-.youtube-responsive-container embed {
-position:absolute;
-width:100%;
-height:100%;
-}
 
 </style>
 
