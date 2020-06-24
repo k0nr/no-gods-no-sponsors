@@ -185,6 +185,7 @@ body {
                 }
                 
                 .seven:before {
+                    font-size: 28px;
                     content: '7';
                 }
                 
