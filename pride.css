@@ -157,6 +157,7 @@ body {
              
             }
                 .wrench:before {
+                    font-size: 40px;
                     content: '⬣';
                 }
             
