@@ -73,8 +73,9 @@ body {
     cursor: url('images/egg.cur'), default;
     height: 100%;
     width: 100%;
-    background-repeat: repeat;
-    background: url('images/bars.png');
+    background-image: linear-gradient(#f68cff, #8215ff, #75ffff, #58ff55, #ffaa41);
+    /*background-repeat: repeat;
+    background: url('images/bars.png');*/
 /*     background-color: #f68cff; */
 }
     
