@@ -38,6 +38,14 @@ font-size:30px;
 
 /* youtube */
 
+.video-wrap {
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    padding-bottom: 15%;
+ 
+}
+
 .youtube-responsive-container {
 position:relative;
 padding-bottom:56.25%;
@@ -104,6 +112,7 @@ body {
     left: 20%;
     top: 20%;
     position: relative;
+    padding-bottom: 10%;
     
 }
 
@@ -141,7 +150,12 @@ body {
         
         
        
-       
+        .introo {
+                text-align: center;
+        }
+            .introo:visited {
+                color: #302443;
+            }
     
         .one {
             text-align: center;
@@ -173,6 +187,7 @@ body {
                 }
                 
                     .two:hover:before {
+                    font-size: 20px;
                     content: 'I Always Liked That Part of Church Where You Shake Hands With Strangers and say Peace';
                                         background: url('images/confetti-lite2.gif');
 
@@ -189,7 +204,6 @@ body {
                     
                 .four:before {
                     content: 'FOUR';
-                    background: url('images/confetti-lite2.gif');
                 }
                 
                     .four:hover:before {
@@ -342,6 +356,115 @@ body {
                         background: url('images/confetti-lite2.gif');
                     }
                     
+                    
+                .twentyone:before {
+                    font-size: 60px;
+                    content: '⬣';
+                    
+                }
+                
+                    .twentyone:hover:before {
+                        content: 'WRENCH OF CAT';
+                        font-size: 28px;
+                                                background: url('images/confetti-lite2.gif');
+
+                    }
+                
+                .twentytwo:before {
+                    content: 'twenty, too';
+                }
+                    .twentytwo:hover:before {
+                        font-size: 12px;
+                        content: 'In this moment, we must prioritize the pleasure of those Most impacted by oppression” Pleasure Activism: The Politics of Feeling Good adrienne marie brown: a book report on a book that I have seemingly had more time on my hands to get through than ever since covid-19 and feels all the more relevant as a queer Black nerodivergent woman struggling to find joy in living through the closest that we have come in my lifetime to dismantling a system that feels just as likely to kill me as to be abolished';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .twentythree:before {
+                    content: '23';
+                }
+                    .twentythree:hover:before {
+                        content: 'Anecdotes of the Deviant Children';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .twentyfour:before {
+                    content: '24';
+                }
+                    .twentyfour:hover:before {
+                        content: 'Paint That Dong';
+                    }
+                    
+                
+                    
+                .twentyfive:before {
+                    font-size: 60px;
+                    content: '⬣';
+                    
+                }
+                    .twentyfive:hover:before {
+                        content: 'WRENCH OF ANNIE';
+                        font-size: 28px;
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .twentysix:before {
+                    content: 'twentysix';
+                }
+                    .twentysix:hover:before {
+                        content: 'Misplaced Pride: The GREATEST HITS!';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .twentyseven:before {
+                    content: '27';
+                }
+                    .twentyseven:hover:before {
+                        font-size: 18px;
+                        content: 'Hi! We formed an informal tri-coastal gaysian Neo affinity group and this is what we made for you!';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .twentyeight:before {
+                    content: 'XXVIII';
+                }
+                
+                    .twentyeight:hover:before {
+                        content: 'Cancel Me, Daddy';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .twentynine:before {
+                    content: '29';
+                }
+                    .twentynine:hover:before {
+                        font-size: 18px;
+                        content: '30yo spermatozoon ISO ovum';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .thirty:before {
+                    content: 'THIRTY (& still frisky)';
+                }
+                    .thirty:hover:before {
+                        content: 'REAMED IN THE ASS';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .extra:before {
+                    content: 'XTRA SPECIAL BONUS PLAY';
+                }
+                
+                    .extra:hover:before {
+                        content: 'WOWIE ZOWIE WHAT A DEAL';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .outro:before {
+                    content: "GOODNITE (IT'S L8)";
+                }
+                    .outro:hover:before {
+                        content: 'TIL NEXT WEEK/YEAR';
+                    }
            
            
            
