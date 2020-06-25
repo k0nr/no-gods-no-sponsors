@@ -16,7 +16,7 @@ font-size:30px;
 .outer { display:none; }
 #warning-message { display:block; }
 
- }
+}
 
 @media only screen and (orientation:landscape){
         #warning-message { display:none; }
@@ -57,19 +57,26 @@ height:100%;
     
 html {
     cursor: url('images/egg.cur'), default;
-    
+    overflow-x: hidden;
 }
 
 body {
     cursor: url('images/egg.cur'), default;
     height: 100%;
     width: 100%;
-    background-color: #ffb355;
+    background-color: #f68cff;
 }
     
     
     
-    
+.footer {
+    position: fixed;
+    width: 100%;
+    height: 12%;
+    bottom: 0;
+    background: url('images/fire.gif');
+    z-index: -1;
+}
     
 .outer {
     
@@ -107,140 +114,240 @@ body {
     }
 
 
-     .item {
+    .item {
             cursor: url('images/brite-egg.cur'), pointer;
-            padding-left: 5%;
-            padding-top: 5%;
-            padding-bottom: 5%;
-            border: 5px dotted #ff29f5;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            padding-left: 5px;
+            padding-right: 5px;
+            outline: dashed #ff29f5;
+            border: 5px dotted #ff9500;
             position: relative;
+            background: rgba(248, 200, 255, 1);
+            font-size: 28px;
+            color: #302443;
+            text-align: center;
+/*            font-family: 'Pacifico', cursive;*/
+            font-family: 'PxPlus IBM CGA', mono;
+            text-decoration: none;
+            min-height: 3rem;
     }
 
-
-    .butto {
-            background: rgba(241,177,255,1);
-            color: black;
-            font-size: 26px;
-            font-style: bold;
+        .item:visited {
+            color: #d9afdf;
+        }
+        
+        
+        
+        
+       
+       
+    
+        .one {
             text-align: center;
+            color: cyan;
+        }
 
-        }
-        
-           
-        
-             .butto:hover {
-                background: url('images/confetti-lite2.gif');
-                color: white;
-                    }
+               /* .one:visited {
+                    color: pink;
+                }
+                */
+                .one:hover:before {
+                    content: 'Gender Reveal Party';
+                    background: url('images/confetti-lite2.gif');
+                }
                     
-        
-        
-        .number {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 7;
-            background: rgba(248, 200, 255, 1);
-            color: black;
-            padding-top: 5%;
-            padding-bottom: 5%;
-            
+                    .one:before {
+                        content: 'ONE';
+                    }
+                
+              
+              
+        .two {
+            text-align: center;
+            color: 
         }
-        
-            .number:hover {
-             background: rgba(0,0,0,0);  
-             color: rgba(0,0,0,0);
-             position: absolute;
-             font-size: 20px;
-             
-            }
-                .wrench:before {
-                    font-size: 40px;
-                    content: '⬣';
-                }
-            
-               .one:before {
-                content: 'ONE';
-                }
-            
+                
                 .two:before {
                     content: '2';
                 }
+                
+                    .two:hover:before {
+                    content: 'I Always Liked That Part of Church Where You Shake Hands With Strangers and say Peace';
+                                        background: url('images/confetti-lite2.gif');
+
+                    }
                 
                 .three:before {
                     content: 'three';
                 }
                 
+                    .three:hover:before {
+                        content: 'how it feels to conquer a fear';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
                 .four:before {
                     content: 'FOUR';
+                    background: url('images/confetti-lite2.gif');
                 }
+                
+                    .four:hover:before {
+                        content: 'echoes from 8th grade band';
+                        background: url('images/confetti-lite2.gif');
+                    }
                 
                 .five:before {
-                    content: 'V';
+                    content: 'FIVE';
                 }
+                
+                    .five:hover:before {
+                        content: 'Tension';
+                        background: url('images/confetti-lite2.gif');
+                    }
                 
                 .six:before {
-                    content: 'siXXX';
+                    font-size: 60px;
+                    content: '⬣';
                 }
+                
+                    .six:hover:before {
+                        font-size: 28px;
+                        content: 'WRENCH OF ALE';
+                        background: url('images/confetti-lite2.gif');
+                    }
                 
                 .seven:before {
-                    font-size: 28px;
-                    content: '7';
+                    content: 'seven';
                 }
                 
+                    .seven:hover:before {
+                        font-size: 12px;
+                        content: 'a small village of midwesterners, conservation and animal control officers, animal experts, amateur photographers, cops,  and swans all gathered around the humboldt park lagoon to see if there was a 5 foot alligator in there, and weirdly, there was, but they’ve trapped it, and it’s long gone, and though i know logically that i could not have kept those authorities from taking the gator to a zoo, and though i know logically that the gator could not have stayed in the lagoon forever, i wish they had left it alone, i wish they had let it stay a neighborhood legend OR the humboldt park alligator OR My Favorite Kind of News';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                
                 .eight:before {
-                    content: '8';
+                    content: 'eighttt';
                 }
+                
+                    .eight:hover:before {
+                        font-size: 20px;
+                        content: 'foundfootagefoundtext';
+                        background: url('images/confetti-lite2.gif');
+                    }
             
                 .nine:before {
-                    content: 'Nine';
+                    content: '9';
                 }
+                
+                    .nine:hover:before {
+                        content: "this year's pride anthem";
+                        background: url('images/confetti-lite2.gif');
+                    }
                 
                 .ten:before {
                     content: 'TEN';
                 }
-                
+                    .ten:hover:before {
+                        content: 'Toy Story';
+                        background: url('images/confetti-lite2.gif');
+                    }
+           
                 .eleven:before {
                     content: '11';
                 }
-                
-                .twelve:before {
-                    content: '[fuck] 12';
+                    .eleven:hover:before {
+                        content: 'Start Your Engines';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .fucktwelve:before {
+                    content: 'Fuck 12';
+                }
+                    .fucktwelve:hover:before {
+                        content: 'Note to Self';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+               .thirteen:before {
+                    font-size: 60px;
+                    content: '⬣';
                 }
                 
-                .thirteen:before {
-                    content: 'XIII';
-                }
-                
+                    .thirteen:hover:before {
+                        font-size: 28px;
+                        content: 'WRENCH OF ABBY';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
                 .fourteen:before {
-                    content: 'FOUR TEEN';
+                    content: '14';
                 }
                 
+                   .fourteen:hover:before {
+                        content: 'Eden';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
                 .fifteen:before {
-                    content: '15';
+                    content: 'XV';
                 }
                 
+                    .fifteen:hover:before {
+                        content: 'Choreographed by Summer. Filmed in an Empty Theatre.';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .sixteen:before {
+                    content: 'sixteen';
+                }
                 
-          
-            .nine:before {
-                content: 'nine';
-            }
-            
-            .seventeen {
-                position: absolute;
-                color: white;
-                font-size: 20px;
-            }
-            
-            .seventeen:before {
-                content: 'seventeen';
-            }
-
-          
-          
-          
+                    .sixteen:hover:before {
+                        content: 'Letter to Lanny';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .seventeen:before {
+                    content: '17';
+                }
+                
+                    .seventeen:hover:before {
+                        font-size: 12px;
+                        content: '20 of the Best Book Club Books From This Decade according to the website ‘Book Bub’, which sounds a lot like ‘Porn Hub’ which boasts 338 videos featuring the word “Librarian”';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .eighteen:before {
+                    content: 'Eighteen';
+                }
+                    .eighteen:hover:before {
+                        content: 'Stink';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .nineteen:before {
+                    content: '19';
+                }
+                    .nineteen:hover:before {
+                        content: "Pride's Hottest New Accessory";
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+                .twenty:before {
+                    content: 'XX';
+                }
+                    .twenty:hover:before {
+                        content: 'Sappy Partner Play';
+                        background: url('images/confetti-lite2.gif');
+                    }
+                    
+           
+           
+           
+           
+        
+        
 
 
 
