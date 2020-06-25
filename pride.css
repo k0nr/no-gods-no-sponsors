@@ -73,7 +73,9 @@ body {
     cursor: url('images/egg.cur'), default;
     height: 100%;
     width: 100%;
-    background-color: #f68cff;
+    background-repeat: repeat;
+    background: url('images/bars.png');
+/*     background-color: #f68cff; */
 }
     
     
