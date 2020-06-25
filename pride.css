@@ -39,8 +39,9 @@ font-size:30px;
 /* youtube */
 
 .video-wrap {
-    position: absolute;
+    position: relative;
     width: 70%;
+    top: 5%;
     left: 15%;
     padding-bottom: 15%;
  
@@ -153,13 +154,11 @@ body {
         .introo {
                 text-align: center;
         }
-            .introo:visited {
-                color: #302443;
-            }
+            
     
         .one {
             text-align: center;
-            color: cyan;
+           
         }
 
                /* .one:visited {
