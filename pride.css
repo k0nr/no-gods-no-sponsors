@@ -106,6 +106,25 @@ body {
         padding-bottom: 1%;
 }
 
+.explain {
+    position: relative;
+    width: 75%;
+    left: 12.5%;
+    height: 40%;
+    text-align: center;
+    background-color: #55ffff;
+    color: #0f013e;
+    font-size: 28px;
+    padding-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .explained {
+     padding: 18px;   
+    }
+
 .flexy {
     display: flex;
     flex-flow: row wrap;
@@ -119,6 +138,7 @@ body {
     padding-bottom: 10%;
     
 }
+
 
 
     .flexy >* {
